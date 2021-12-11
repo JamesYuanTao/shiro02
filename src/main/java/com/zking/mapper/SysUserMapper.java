@@ -18,6 +18,11 @@ public interface SysUserMapper {
 
     SysUser selectByPrimaryKey(Integer userid);
 
+    /**
+     * 动态修改
+     * @param record
+     * @return
+     */
     int updateByPrimaryKeySelective(SysUser record);
 
     /**
