@@ -22,7 +22,7 @@ public interface SysUserMapper {
 
     /**
      * 修改
-     * @param record
+     * @param record  修改后的对象
      * @return
      */
     int updateByPrimaryKey(SysUser record);
