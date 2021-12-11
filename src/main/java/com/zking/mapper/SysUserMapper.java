@@ -20,6 +20,11 @@ public interface SysUserMapper {
 
     int updateByPrimaryKeySelective(SysUser record);
 
+    /**
+     * 修改
+     * @param record
+     * @return
+     */
     int updateByPrimaryKey(SysUser record);
 
     /**
