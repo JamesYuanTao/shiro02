@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSession;
 
 @Controller
 public class IndexController {
+
     @Autowired
     private ISysUserService sysUserService;
 
